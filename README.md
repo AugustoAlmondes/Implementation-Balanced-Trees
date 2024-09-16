@@ -66,21 +66,6 @@ Para compilar e executar o código, é necessário:
   - Para Windows, a biblioteca `windows.h` é usada para medições de tempo.
   - Para Linux, a biblioteca `time.h` é utilizada.
 
-## Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/usuario/projeto-arvores.git
-   ```
-2. Compile o código:
-   ```bash
-   gcc main.c -o programa
-   ```
-3. Execute o programa:
-   ```bash
-   ./programa
-   ```
-
 ## Conclusão
 
 O projeto demonstra o uso eficiente de árvores balanceadas em C e proporciona uma comparação clara de desempenho entre a **Árvore Rubro-Negra** e a **Árvore 2-3**. A árvore 2-3 mostrou-se mais eficiente em operações de busca, enquanto a Rubro-Negra se destaca em cenários com inserções e remoções constantes.
